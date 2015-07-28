@@ -1,0 +1,9 @@
+name: Replay
+main: no.perhenrik.replayplugin.ReplayPlugin
+version: 0.0.1
+author: perhenrik
+description: Lets you record and replay a tour in Minecraft
+commands:
+    replay:
+        description: Lets you record and replay a tour in Minecraft
+        usage: /replay [new|...]
