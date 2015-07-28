@@ -1,6 +1,5 @@
 package no.perhenrik.replayplugin;
 
-import java.util.HashMap;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
