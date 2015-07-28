@@ -6,7 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 
 public class ReplayPlugin extends JavaPlugin {
-	private HashMap<String, Object> repository;
+	//private HashMap<String, Object> repository;
 	private ConfigAccessor config;
 	
     @Override
