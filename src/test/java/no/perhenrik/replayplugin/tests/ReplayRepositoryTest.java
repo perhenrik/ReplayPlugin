@@ -15,7 +15,7 @@ import no.perhenrik.replayplugin.ReplayRepository;
 import no.perhenrik.replayplugin.ReturnValue;
 import no.perhenrik.replayplugin.Step;
 
-public class ReplayRepositoryTests {
+public class ReplayRepositoryTest {
 
 	private ReplayRepository repo;
 	
