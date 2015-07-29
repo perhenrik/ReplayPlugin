@@ -1,16 +1,18 @@
 package no.perhenrik.replayplugin;
 
+import java.util.HashMap;
+
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
 public class ReplayPlugin extends JavaPlugin {
-	//private HashMap<String, Object> repository;
+	private HashMap<String, Object> repository;
 	private ConfigAccessor config;
 	
     @Override
     public void onLoad() {
-//        repository = new HashMap<String, Object>(); // change to read from disk
+        repository = new HashMap<String, Object>(); // change to read from disk
         this.config = new ConfigAccessor(this, "replays");
 //        FileConfiguration fc = config.getConfig();
 //        fc.addDefaults(repository);
